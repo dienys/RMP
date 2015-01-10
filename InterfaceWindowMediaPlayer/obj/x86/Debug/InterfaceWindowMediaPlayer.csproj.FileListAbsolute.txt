@@ -22,3 +22,15 @@ C:\Users\didi\Documents\Visual Studio 2010\Projects\WMP\InterfaceWindowMediaPlay
 C:\Users\didi\Documents\Visual Studio 2010\Projects\WMP\InterfaceWindowMediaPlayer\obj\x86\Debug\InterfaceWindowMediaPlayer.g.resources
 C:\Users\didi\Documents\Visual Studio 2010\Projects\WMP\InterfaceWindowMediaPlayer\obj\x86\Debug\InterfaceWindowMediaPlayer.Properties.Resources.resources
 C:\Users\didi\Documents\Visual Studio 2010\Projects\WMP\InterfaceWindowMediaPlayer\obj\x86\Debug\InterfaceWindowMediaPlayer.csproj.GenerateResource.Cache
+C:\Users\ferran_m\Documents\GitHub\RMP\InterfaceWindowMediaPlayer\obj\x86\Debug\InterfaceWindowMediaPlayer.exe
+C:\Users\ferran_m\Documents\GitHub\RMP\InterfaceWindowMediaPlayer\obj\x86\Debug\InterfaceWindowMediaPlayer.pdb
+C:\Users\ferran_m\Documents\GitHub\RMP\InterfaceWindowMediaPlayer\bin\Debug\InterfaceWindowMediaPlayer.exe
+C:\Users\ferran_m\Documents\GitHub\RMP\InterfaceWindowMediaPlayer\bin\Debug\InterfaceWindowMediaPlayer.pdb
+C:\Users\ferran_m\Documents\GitHub\RMP\InterfaceWindowMediaPlayer\obj\x86\Debug\InterfaceWindowMediaPlayer.csprojResolveAssemblyReference.cache
+C:\Users\ferran_m\Documents\GitHub\RMP\InterfaceWindowMediaPlayer\obj\x86\Debug\MainWindow.baml
+C:\Users\ferran_m\Documents\GitHub\RMP\InterfaceWindowMediaPlayer\obj\x86\Debug\MainWindow.g.cs
+C:\Users\ferran_m\Documents\GitHub\RMP\InterfaceWindowMediaPlayer\obj\x86\Debug\App.g.cs
+C:\Users\ferran_m\Documents\GitHub\RMP\InterfaceWindowMediaPlayer\obj\x86\Debug\InterfaceWindowMediaPlayer_MarkupCompile.cache
+C:\Users\ferran_m\Documents\GitHub\RMP\InterfaceWindowMediaPlayer\obj\x86\Debug\InterfaceWindowMediaPlayer.g.resources
+C:\Users\ferran_m\Documents\GitHub\RMP\InterfaceWindowMediaPlayer\obj\x86\Debug\InterfaceWindowMediaPlayer.Properties.Resources.resources
+C:\Users\ferran_m\Documents\GitHub\RMP\InterfaceWindowMediaPlayer\obj\x86\Debug\InterfaceWindowMediaPlayer.csproj.GenerateResource.Cache

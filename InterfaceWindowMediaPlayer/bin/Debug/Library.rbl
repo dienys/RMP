@@ -1,7 +1,10 @@
 <?xml version="1.0"?>
 <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <string>C:\Users\didi\Pictures</string>
-  <string>C:\Users\didi\Videos</string>
-  <string>C:\Users\didi\Music</string>
-  <string>C:\Users\didi\Music\Playlists</string>
+  <string>C:\Users\ferran_m\Pictures</string>
+  <string>C:\Users\ferran_m\Pictures\Anne-So</string>
+  <string>C:\Users\ferran_m\Pictures\RCT3</string>
+  <string>C:\Users\ferran_m\Pictures\Web Cam</string>
+  <string>C:\Users\ferran_m\Videos</string>
+  <string>C:\Users\ferran_m\Videos\Web Cam</string>
+  <string>C:\Users\ferran_m\Music</string>
 </ArrayOfString>
