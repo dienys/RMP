@@ -6,8 +6,8 @@
     <Grid Background="#FF00284E">
         
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="1000*" />
-            <ColumnDefinition Width="240*" />
+            <ColumnDefinition Width="500*" />
+            <ColumnDefinition Width="117*" />
         </Grid.ColumnDefinitions>
        
         
@@ -22,9 +22,9 @@
         </Button>
         <Button x:Name="loopButton" Click="loopButton_Click" Content="Loop: None" Background="#FFACACC2" Foreground="White" Width="90" Height="23" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="185,0,0,13"/>
 
-        <TextBlock x:Name="volumeText" Text="Volume 50%" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="211,16,0,0" Foreground="White" />
-        <Button x:Name="volumeUpButton" Click="volumeUpButton_Click" Content="+" Background="#FFACACC2" Foreground="White" Width="23" Height="23" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="150,13,0,0"/>
-        <Button x:Name="volumeDownButton" Click="volumeDownButton_Click" Content="-" Background="#FFACACC2" Foreground="White" Width="23" Height="23" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="178,13,0,0"/>
+        <TextBlock x:Name="volumeText" Text="Volume 50%" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="211,16,0,0" Foreground="White" Height="16" Width="67" />
+        <Button x:Name="volumeUpButton" Click="volumeUpButton_Click" Content="+" Background="#FFACACC2" Foreground="White" Width="23" Height="23" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="179,13,0,0"/>
+        <Button x:Name="volumeDownButton" Click="volumeDownButton_Click" Content="-" Background="#FFACACC2" Foreground="White" Width="23" Height="23" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="152,13,0,0"/>
         
         <Button Background="#FFC1C1DC" Content="Previous" Foreground="White" Height="22" HorizontalAlignment="Left" Margin="12,13,0,0" Name="previous" VerticalAlignment="Top" Width="57" Click="previous_Click" />
         <Button Background="#FFC1C1DC" Content="next" Foreground="White" Height="22" HorizontalAlignment="Right" Margin="0,13,860,0" Name="next" VerticalAlignment="Top" Width="57" Click="next_Click" />
@@ -34,17 +34,15 @@
 
 
         <!-- Barre d'avancement media -->
-        
-        <ListBox Height="426" HorizontalAlignment="Left" Margin="868,75,0,0" Name="listBox1" VerticalAlignment="Top" Width="298" Background="#FF8E9FAC" BorderBrush="#FF07365B" Grid.ColumnSpan="2"  />
-        <Slider Name="timelineSlider" Thumb.DragStarted="sliProgress_DragStarted"  Thumb.DragCompleted="sliProgress_DragCompleted" ValueChanged="sliProgress_ValueChanged" Margin="370,554,23,13" Grid.ColumnSpan="2" />
+        <Slider Name="timelineSlider" Thumb.DragStarted="sliProgress_DragStarted"  Thumb.DragCompleted="sliProgress_DragCompleted" ValueChanged="sliProgress_ValueChanged" Margin="370,554,0,13" Grid.ColumnSpan="2" />
 
-        <TextBlock Name="lblProgressStatus" VerticalAlignment="Bottom" Margin="386,0,550,17" Foreground="White">00:00:00</TextBlock>
+        <TextBlock Name="lblProgressStatus" VerticalAlignment="Bottom" Margin="386,0,456,17" Foreground="White" Height="16">00:00:00</TextBlock>
 
         <!-- Fin Barre d'avancement media -->
 
 
         <!-- Barre de séparation -->
-        <GridSplitter Height="2" HorizontalAlignment="Left" Margin="0,546,0,0" VerticalAlignment="Top" Width="1240" Grid.ColumnSpan="2" Name="top" />
+        <GridSplitter Height="2" HorizontalAlignment="Left" Margin="0,546,0,0" VerticalAlignment="Top" Width="1234" Grid.ColumnSpan="2" Name="top" />
         <!-- Fin Barre de séparation -->
 
 
@@ -56,28 +54,30 @@
             <TabItem Header="Bibliothèque" Name="tabItem2">
                 <Grid Background="#FF3C617B" Height="500">
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="113*" />
-                        <ColumnDefinition Width="299*" />
+                        <ColumnDefinition Width="36*" />
+                        <ColumnDefinition Width="67*" />
                     </Grid.ColumnDefinitions>
                     <!-- Bouton Bibliothèque -->
-                    <Button Background="#FFC1C1DC" Content="Ajouter un dossier" Foreground="White" Height="20" HorizontalAlignment="Right" Margin="0,10,284,0" Name="AddFolder" VerticalAlignment="Top" Width="107" Grid.ColumnSpan="2" Click="AddFolder_Click" />
+                    <Button Background="#FFC1C1DC" Content="Ajouter un dossier" Foreground="White" Height="20" HorizontalAlignment="Right" Margin="0,10,14,0" Name="AddFolder" VerticalAlignment="Top" Width="107" Click="AddFolder_Click" />
                     <Button Background="#FFC1C1DC" Content="Rafraîchir" Foreground="White" Height="22" HorizontalAlignment="Right" Margin="0,36,15,0" Name="refresh" VerticalAlignment="Top" Width="88" Grid.Column="1" Click="refresh_Click"/>
-                    <Button Background="#FFC1C1DC" Content="Retirer un dossier" Foreground="White" Height="20" HorizontalAlignment="Right" Margin="0,11,171,0" Name="button3" VerticalAlignment="Top" Width="107" Grid.Column="1" />
+                    <Button Background="#FFC1C1DC" Content="Retirer un dossier" Foreground="White" Height="20" HorizontalAlignment="Right" Margin="0,11,171,0" Name="button3" VerticalAlignment="Top" Width="107" Grid.ColumnSpan="2" />
                     <!-- Fin Bouton Bibliothèque -->
                     
                     <!-- Affichage Bibliothèque -->
                     <ListView Height="376" HorizontalAlignment="Left" Margin="21,65,0,0" Name="LibrarylistView" VerticalAlignment="Top" Width="376" Background="#FF90AFD0" Grid.ColumnSpan="2" MouseDoubleClick="playMedia">
                         <ListView.View>
                             <GridView>
-                                <GridViewColumn Header="Type" Width="110" />
-                                <GridViewColumn Header="Titre" Width="90" />
-                                <GridViewColumn Header="Path" Width="120" />
+                                <GridViewColumn Header="Type" Width="75" />
+                                <GridViewColumn Header="Titre" Width="75" />
+                                <GridViewColumn Header="Artiste" Width="75" />
+                                <GridViewColumn Header="Album" Width="75" />
+                                <GridViewColumn Header="Durée" Width="75" />
                             </GridView>
                         </ListView.View>
                     </ListView>
                     <ComboBox Height="23" HorizontalAlignment="Left" Margin="21,36,0,0" Name="MenuLibrary" VerticalAlignment="Top" Width="282" IsTextSearchEnabled="true" Grid.ColumnSpan="2" SelectionChanged="MenuLibrary_SelectionChanged" />
-                    <Button Background="#FFC1C1DC" Content="Ajouter à la lecture en cours" Foreground="White" Grid.ColumnSpan="2" Height="20" HorizontalAlignment="Right" Margin="0,447,284,0" Name="addtoplay" VerticalAlignment="Top" Width="107" />
-                    <Button Background="#FFC1C1DC" Content="Ajouter à la playlist en création" Foreground="White" Height="20" HorizontalAlignment="Right" Margin="0,447,109,0" Name="addtocreatingplaylist" Visibility="Hidden" VerticalAlignment="Top" Width="169" Grid.Column="1" />
+                    <Button Background="#FFC1C1DC" Content="Ajouter à la lecture en cours" Foreground="White" Height="20" HorizontalAlignment="Right" Margin="0,447,14,0" Name="addtoplay" VerticalAlignment="Top" Width="107" />
+                    <Button Background="#FFC1C1DC" Content="Ajouter à la playlist en création" Foreground="White" Height="20" HorizontalAlignment="Right" Margin="0,447,109,0" Name="addtocreatingplaylist" Visibility="Hidden" VerticalAlignment="Top" Width="169" Grid.ColumnSpan="2" />
                     <!-- Fin Affichage Bibliothèque -->
                 </Grid>
             </TabItem>
@@ -109,9 +109,11 @@
                     <ListView Background="#FF90AFD0" Height="407" HorizontalAlignment="Right" Margin="0,36,28,0" Name="listPlaylist" VerticalAlignment="Top" Width="379" Grid.ColumnSpan="2" Grid.RowSpan="2">
                         <ListView.View>
                             <GridView>
-                                <GridViewColumn Header="Type" Width="110" />
-                                <GridViewColumn Header="Titre" Width="90" />
-                                <GridViewColumn Header="Path" Width="120" />
+                                    <GridViewColumn Header="Type" Width="75" />
+                                    <GridViewColumn Header="Titre" Width="75" />
+                                    <GridViewColumn Header="Artiste" Width="75" />
+                                    <GridViewColumn Header="Album" Width="75" />
+                                    <GridViewColumn Header="Durée" Width="75" />
                             </GridView>
                         </ListView.View>
                     </ListView>
@@ -134,8 +136,9 @@
         <ListView Background="#FF90AFD0" Height="471" HorizontalAlignment="Left" Margin="632,49,0,0" Name="listplay" VerticalAlignment="Top" Width="147" MouseDoubleClick="PlaySelectedMedia" KeyDown="listplay_KeyDown">
             <ListView.View>
                             <GridView>
-                                <GridViewColumn Header="Titre" Width="110" />
-                            </GridView>
+                                <GridViewColumn Header="Titre" Width="73.5" />
+                                <GridViewColumn Header="Durée" Width="73.5" />
+                </GridView>
                         </ListView.View>
         </ListView>
         <!-- Fin Affichage Playlist en lecture -->

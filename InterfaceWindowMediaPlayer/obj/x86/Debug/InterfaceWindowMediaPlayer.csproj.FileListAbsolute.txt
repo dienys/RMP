@@ -34,3 +34,4 @@ C:\Users\ferran_m\Documents\GitHub\RMP\InterfaceWindowMediaPlayer\obj\x86\Debug\
 C:\Users\ferran_m\Documents\GitHub\RMP\InterfaceWindowMediaPlayer\obj\x86\Debug\InterfaceWindowMediaPlayer.g.resources
 C:\Users\ferran_m\Documents\GitHub\RMP\InterfaceWindowMediaPlayer\obj\x86\Debug\InterfaceWindowMediaPlayer.Properties.Resources.resources
 C:\Users\ferran_m\Documents\GitHub\RMP\InterfaceWindowMediaPlayer\obj\x86\Debug\InterfaceWindowMediaPlayer.csproj.GenerateResource.Cache
+C:\Users\ferran_m\Documents\GitHub\RMP\InterfaceWindowMediaPlayer\bin\Debug\taglib-sharp.dll

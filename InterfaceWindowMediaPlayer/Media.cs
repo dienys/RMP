@@ -19,6 +19,8 @@ namespace InterfaceWindowMediaPlayer
         public uint trackNb { get; set; }
         public string[] artists { get; set; }
         public string album { get; set; }
+        public int secondes { get; set; }
+        public int minutes { get; set; }
 
         public Media()
         { 
@@ -47,6 +49,8 @@ namespace InterfaceWindowMediaPlayer
                 trackNb = file.Tag.Track;
                 album = file.Tag.Album;
                 artists = file.Tag.Performers;
+                minutes = file.Properties.Duration.Minutes;
+                secondes = file.Properties.Duration.Seconds;
             }
             catch (FileNotFoundException)
             {
