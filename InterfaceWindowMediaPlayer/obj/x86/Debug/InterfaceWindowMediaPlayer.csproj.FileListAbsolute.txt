@@ -54,7 +54,6 @@ C:\cygwin64\home\Xavart\Documents\project\RMP_curent\InterfaceWindowMediaPlayer\
 C:\cygwin64\home\Xavart\Documents\project\RMP_curent\InterfaceWindowMediaPlayer\obj\x86\Debug\InterfaceWindowMediaPlayer_MarkupCompile.cache
 C:\cygwin64\home\Xavart\Documents\project\RMP_curent\InterfaceWindowMediaPlayer\bin\Debug\InterfaceWindowMediaPlayer.exe
 C:\cygwin64\home\Xavart\Documents\project\RMP_curent\InterfaceWindowMediaPlayer\bin\Debug\InterfaceWindowMediaPlayer.pdb
-C:\cygwin64\home\Xavart\Documents\project\RMP_curent\InterfaceWindowMediaPlayer\obj\x86\Debug\InterfaceWindowMediaPlayer.csprojResolveAssemblyReference.cache
 C:\cygwin64\home\Xavart\Documents\project\RMP_curent\InterfaceWindowMediaPlayer\obj\x86\Debug\InterfaceWindowMediaPlayer.Properties.Resources.resources
 C:\cygwin64\home\Xavart\Documents\project\RMP_curent\InterfaceWindowMediaPlayer\obj\x86\Debug\InterfaceWindowMediaPlayer.csproj.GenerateResource.Cache
 C:\cygwin64\home\Xavart\Documents\project\RMP_curent\InterfaceWindowMediaPlayer\obj\x86\Debug\InterfaceWindowMediaPlayer.exe
@@ -83,3 +82,5 @@ C:\cygwin64\home\Xavart\Documents\project\RMP_curent\InterfaceWindowMediaPlayer\
 C:\cygwin64\home\Xavart\Documents\project\RMP_curent\InterfaceWindowMediaPlayer\bin\Debug\ko\System.Windows.Interactivity.resources.dll
 C:\cygwin64\home\Xavart\Documents\project\RMP_curent\InterfaceWindowMediaPlayer\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
 C:\cygwin64\home\Xavart\Documents\project\RMP_curent\InterfaceWindowMediaPlayer\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\cygwin64\home\Xavart\Documents\project\RMP_curent\InterfaceWindowMediaPlayer\bin\Debug\taglib-sharp.dll
+C:\cygwin64\home\Xavart\Documents\project\RMP_curent\InterfaceWindowMediaPlayer\obj\x86\Debug\InterfaceWindowMediaPlayer.csprojResolveAssemblyReference.cache
