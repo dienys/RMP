@@ -10,7 +10,8 @@ namespace InterfaceWindowMediaPlayer
             OTHER,
             MUSIC,
             VIDEO,
-            IMAGE
+            IMAGE,
+            PLAYLIST
         };
 
         public string path { get; set; }
@@ -40,6 +41,8 @@ namespace InterfaceWindowMediaPlayer
                 this.mediaType = Media.MediaType.VIDEO;
             if (tmpMusic.IndexOf(Path.GetExtension(path)) >= 0)
                 this.mediaType = Media.MediaType.MUSIC;
+            if (Path.GetExtension(path) == ".rplb")
+                this.mediaType = Media.MediaType.PLAYLIST;
 
             try
             {
@@ -54,8 +57,7 @@ namespace InterfaceWindowMediaPlayer
             }
             catch (FileNotFoundException)
             {
-                MessageBox.Show("The specified file does not exist");
-                throw;
+
             }
        }
     }

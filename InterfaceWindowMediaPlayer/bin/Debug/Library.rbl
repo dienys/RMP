@@ -1,10 +1,23 @@
 <?xml version="1.0"?>
 <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <string>C:\Users\ferran_m\Pictures</string>
-  <string>C:\Users\ferran_m\Pictures\Anne-So</string>
-  <string>C:\Users\ferran_m\Pictures\RCT3</string>
-  <string>C:\Users\ferran_m\Pictures\Web Cam</string>
-  <string>C:\Users\ferran_m\Videos</string>
-  <string>C:\Users\ferran_m\Videos\Web Cam</string>
-  <string>C:\Users\ferran_m\Music</string>
+  <string>C:\Users\Xavart\Pictures</string>
+  <string>C:\Users\Xavart\Pictures\Artist</string>
+  <string>C:\Users\Xavart\Pictures\Artist\Melusa</string>
+  <string>C:\Users\Xavart\Pictures\Artist\Mikoma Sanagi</string>
+  <string>C:\Users\Xavart\Pictures\Artist\Takeshima (nia)</string>
+  <string>C:\Users\Xavart\Pictures\Artist\Takeshima (nia)\eevee's family</string>
+  <string>C:\Users\Xavart\Pictures\Artist\Takeshima (nia)\Original</string>
+  <string>C:\Users\Xavart\Pictures\Artist\Takeshima (nia)\Pokemon</string>
+  <string>C:\Users\Xavart\Pictures\Autre</string>
+  <string>C:\Users\Xavart\Pictures\Avatar et Fond (Site)</string>
+  <string>C:\Users\Xavart\Pictures\Pokemon</string>
+  <string>C:\Users\Xavart\Pictures\Tales of</string>
+  <string>C:\Users\Xavart\Pictures\The legend of zelda-Link's awakening-</string>
+  <string>C:\Users\Xavart\Pictures\The legend of zelda-Link's awakening-\Tome 1</string>
+  <string>C:\Users\Xavart\Pictures\The legend of zelda-Link's awakening-\Tome 2</string>
+  <string>C:\Users\Xavart\Pictures\Touhou</string>
+  <string>C:\Users\Xavart\Pictures\Touhou\Touhou Icons</string>
+  <string>C:\Users\Xavart\Pictures\Touhou\Touhou Icons\Touhou Icons</string>
+  <string>C:\Users\Xavart\Videos</string>
+  <string>C:\Users\Xavart\Music</string>
 </ArrayOfString>
